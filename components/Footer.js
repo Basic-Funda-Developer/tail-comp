@@ -8,8 +8,8 @@ const Footer = () => {
         <h4>Sources</h4>
         <Link href="https://github.com/basic-funda-developer/tail-comp">Github</Link>
         <Link href="https://tailwindcss.com">TailwindCSS</Link>
-        <Link href="https://github.com/basic-funda-developer/tail-comp">Github</Link>
-        <Link href="https://github.com/basic-funda-developer/tail-comp" target>Github</Link>
+        <Link href="https://headlessui.com/">HeadlessUI</Link>
+        <Link href="https://heroicons.com/">Heroicons</Link> 
       </div>
      
       
