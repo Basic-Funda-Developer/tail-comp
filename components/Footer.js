@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="bottom-0 fixed w-full flex bg-gray-100">
       <div className="flex flex-col mx-auto">
-        <video className="w-24 h-24" autoPlay loop="true" src='/tail_comp_vid.mp4'></video>
+        <video className="w-24 h-24" autoPlay loop={true} src='/tail_comp_vid.mp4'></video>
       </div>
       <div className="flex flex-col mx-auto">
         <h4 className="footer-header">Sources</h4>

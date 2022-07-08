@@ -7,3 +7,7 @@
 .footer-header{
     @apply text-cyan-700 font-serif font-bold;
 }
+
+.btn-cyan{
+    @apply p-4 bg-cyan-500 hover:bg-white border-cyan-500 border-4 rounded-xl drop-shadow-2xl text-white hover:text-cyan-500 shadow-cyan-500;
+}

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-
+import Link from "next/link";
 export default function Home() {
   return (
     <div>
@@ -11,11 +11,14 @@ export default function Home() {
       </Head>
       <div>
         <video
-          loop="true"
-          className="mx-auto"
+          loop={true}
+          className="mx-auto h-96"
           autoPlay
           src="/tail_comp_vid.mp4"
         ></video>
+        <div className="w-screen justify-center mx-auto text-center">
+        <button className="text-center justify-center btn-cyan"><Link className="mx-auto" href="/comp">Browse Components</Link></button>
+      </div>
       </div>
     </div>
   );
