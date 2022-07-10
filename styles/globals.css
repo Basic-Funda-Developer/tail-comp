@@ -11,3 +11,6 @@
 .btn-cyan{
     @apply p-4 bg-cyan-500 hover:bg-white border-cyan-500 border-2 rounded-xl drop-shadow-2xl text-white hover:text-cyan-500 shadow-cyan-500;
 }
+.nav-li{
+   @apply hover:text-cyan-600 hover:underline decoration-cyan-600 hover:-translate-y-1
+}

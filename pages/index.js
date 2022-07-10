@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import  Toggle  from "../components/darkSwitch";
 export default function Home() {
   return (
     <div>
@@ -16,8 +17,10 @@ export default function Home() {
           autoPlay
           src="/tail_comp_vid.mp4"
         ></video>
+       
         <div className="w-screen justify-center mx-auto text-center">
         <button className="text-center justify-center btn-cyan"><Link className="mx-auto" href="/comp">Browse Components</Link></button>
+        
       </div>
       </div>
     </div>
